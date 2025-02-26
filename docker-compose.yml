@@ -12,12 +12,7 @@ services:
         - 82:80
       deploy:
         replicas: 3
-    dth:
-      image: techmahi821/dth:latest
-      ports:
-        - 83:80
-      deploy:
-        replicas: 3
+  
     recharge:
       image: techmahi821/paytmrecharge:latest
       ports:
